@@ -5,19 +5,19 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import '../styles/global.css';
 
-
-
-const IndexPage = () => {
+function products() {
   return (
-    <main>
+    <div>
+      <main>
 
       <Header />
-      <Hero />
+      <Hero description = "This is the products page" />
       <Feature />
       <Footer />
-      
-    </main>
+
+      </main>
+    </div>
   )
 }
 
-export default IndexPage
+export default products

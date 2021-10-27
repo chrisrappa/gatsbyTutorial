@@ -5,19 +5,19 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import '../styles/global.css';
 
-
-
-const IndexPage = () => {
+function contact() {
   return (
-    <main>
+    <div>
+      <main>
 
-      <Header />
-      <Hero />
-      <Feature />
-      <Footer />
-      
-    </main>
+        <Header />
+        <Hero description = "This is the contact page" />
+        <Feature />
+        <Footer />
+
+        </main>
+    </div>
   )
 }
 
-export default IndexPage
+export default contact

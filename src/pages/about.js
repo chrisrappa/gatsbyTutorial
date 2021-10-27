@@ -1,3 +1,4 @@
+
 import * as React from "react";
 import Feature from "../components/Feature";
 import Footer from "../components/Footer";
@@ -5,19 +6,19 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import '../styles/global.css';
 
-
-
-const IndexPage = () => {
+function about() {
   return (
-    <main>
+    <div>
+      <main>
 
       <Header />
-      <Hero />
+      <Hero descriptions = "This is the about page" />
       <Feature />
       <Footer />
-      
-    </main>
+
+      </main>
+    </div>
   )
 }
 
-export default IndexPage
+export default about
