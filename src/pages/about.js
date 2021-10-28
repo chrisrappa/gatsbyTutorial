@@ -12,7 +12,12 @@ function about() {
       <main>
 
       <Header />
-      <Hero descriptions = "This is the about page" />
+      <Hero 
+        title = "Learn More" 
+        titleBlue = "About Us" 
+        description = "There's more than meets the eye" 
+        buttonOne = {false}
+        buttonTwo = {false} />
       <Feature />
       <Footer />
 

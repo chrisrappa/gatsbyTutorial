@@ -11,7 +11,12 @@ function contact() {
       <main>
 
         <Header />
-        <Hero description = "This is the contact page" />
+        <Hero 
+        title = "Feel Free To" 
+        titleBlue = "Reach Out!" 
+        description = "We want to help so let us know how we can improve your experience" 
+        buttonOne = {true}
+        buttonTwo = {false} />
         <Feature />
         <Footer />
 

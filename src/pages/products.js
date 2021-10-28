@@ -11,7 +11,12 @@ function products() {
       <main>
 
       <Header />
-      <Hero description = "This is the products page" />
+      <Hero 
+        title = "We Have Something" 
+        titleBlue = "To Fit You" 
+        description = "Whatever your needs may be, we have an option that can meet them." 
+        buttonOne = {false}
+        buttonTwo = {false} />
       <Feature />
       <Footer />
 
